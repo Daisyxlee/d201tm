@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-tm-navy to-tm-maroon text-white py-20 px-4">
+      <section className="bg-gradient-to-b from-tm-blue to-tm-maroon text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             District 201 Toastmasters
@@ -20,11 +20,14 @@ export default function HomePage() {
               href="https://www.toastmasters.org/find-a-club"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary bg-white text-tm-maroon hover:bg-tm-cream"
+              className="btn-primary bg-white text-tm-maroon hover:bg-tm-yellow"
             >
               Find a Club
             </Link>
-            <Link href="/about" className="btn-secondary border-2 border-white hover:border-tm-gold">
+            <Link
+              href="/about"
+              className="btn-secondary border-2 border-white hover:border-tm-yellow"
+            >
               About District 201
             </Link>
           </div>

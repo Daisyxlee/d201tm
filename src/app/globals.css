@@ -2,27 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --tm-maroon: #8B1538;
-  --tm-navy: #003366;
-  --tm-gold: #C5A572;
-  --tm-cream: #F5F0E6;
-  --tm-charcoal: #2C2C2C;
-}
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Gotham', 'Myriad Pro', system-ui, -apple-system, sans-serif;
+  font-family: 'Montserrat', 'Source Sans 3', system-ui, -apple-system, sans-serif;
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-tm-maroon text-white px-6 py-3 rounded-lg font-semibold hover:bg-tm-navy transition-colors;
+    @apply bg-tm-maroon text-white px-6 py-3 rounded-lg font-semibold hover:bg-tm-blue transition-colors;
   }
   .btn-secondary {
-    @apply bg-tm-navy text-white px-6 py-3 rounded-lg font-semibold hover:bg-tm-maroon transition-colors;
+    @apply bg-tm-blue text-white px-6 py-3 rounded-lg font-semibold hover:bg-tm-maroon transition-colors;
   }
 }

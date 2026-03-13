@@ -94,6 +94,15 @@ export default function AdminDashboardPage() {
               Awards, Hall of Fame, and past recognition
             </p>
           </Link>
+          <Link
+            href="/admin/dashboard/auth-log"
+            className="block p-6 bg-white rounded-lg shadow hover:shadow-md border-l-4 border-tm-maroon"
+          >
+            <h2 className="font-bold text-tm-navy text-lg">Auth Log</h2>
+            <p className="text-sm text-tm-charcoal mt-1">
+              View recent admin sign-in attempts (read-only)
+            </p>
+          </Link>
         </div>
       </div>
     </div>

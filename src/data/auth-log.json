@@ -58,5 +58,41 @@
     "email": "daisy.li@district1toastmasters.org",
     "status": "success",
     "source": "signIn"
+  },
+  {
+    "timestamp": "2026-03-13T10:12:42.522Z",
+    "email": "daisyxlee@gmail.com",
+    "status": "denied",
+    "source": "signIn"
+  },
+  {
+    "timestamp": "2026-03-13T10:12:47.378Z",
+    "email": "daisyxlee@gmail.com",
+    "status": "denied",
+    "source": "signIn"
+  },
+  {
+    "timestamp": "2026-03-13T10:12:49.815Z",
+    "email": "daisyxlee@gmail.com",
+    "status": "denied",
+    "source": "signIn"
+  },
+  {
+    "timestamp": "2026-03-13T10:12:56.473Z",
+    "email": "daisyxlee@gmail.com",
+    "status": "denied",
+    "source": "signIn"
+  },
+  {
+    "timestamp": "2026-03-13T10:13:18.396Z",
+    "email": "daisy.li@district1toastmasters.org",
+    "status": "success",
+    "source": "signIn"
+  },
+  {
+    "timestamp": "2026-03-13T10:30:44.564Z",
+    "email": "noahsarknme@gmail.com",
+    "status": "success",
+    "source": "signIn"
   }
 ]

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { SearchBar } from './SearchBar';
 
@@ -19,13 +20,27 @@ export function Header() {
   const [open, setOpen] = useState(false);
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center gap-2">
-            <span className="font-bold text-xl text-tm-maroon">
-              District 201
-            </span>
-            <span className="text-tm-navy">Toastmasters</span>
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="flex items-center justify-between h-20">
+          <Link href="/" className="flex items-center gap-3">
+            <div className="relative h-12 w-12 flex-shrink-0">
+              <Image
+                src="/toastmasters-logo.png"
+                alt="Toastmasters International"
+                fill
+                sizes="40px"
+                className="object-contain"
+                priority
+              />
+            </div>
+            <div className="flex flex-col leading-tight">
+              <span className="text-[10px] uppercase tracking-[0.18em] text-tm-blue font-semibold">
+                Toastmasters International
+              </span>
+              <span className="font-bold text-lg text-tm-maroon">
+                District 201
+              </span>
+            </div>
           </Link>
 
           <nav className="hidden md:flex items-center gap-6">
