@@ -1,10 +1,13 @@
 'use client';
 
+export const dynamic = 'force-dynamic';
+
+import { Suspense } from 'react';
 import { signIn, signOut, useSession } from 'next-auth/react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 
-export default function AdminPage() {
+function AdminInner() {
   const { data: session, status } = useSession();
   const searchParams = useSearchParams();
   const error = searchParams.get('error');
@@ -81,5 +84,13 @@ export default function AdminPage() {
         </button>
       </div>
     </div>
+  );
+}
+
+export default function AdminPage() {
+  return (
+    <Suspense fallback={<div className="min-h-[60vh] flex items-center justify-center"><p className="text-tm-charcoal">Loading…</p></div>}>
+      <AdminInner />
+    </Suspense>
   );
 }
