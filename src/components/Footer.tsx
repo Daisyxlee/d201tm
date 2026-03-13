@@ -7,7 +7,14 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between gap-8">
           <div>
             <p className="font-bold text-lg mb-2">District 201 Toastmasters</p>
-            <p className="text-sm">https://d201tm.org</p>
+            <a
+              href="https://d201tm.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm underline hover:no-underline"
+            >
+              https://d201tm.org
+            </a>
           </div>
           <div className="flex flex-col md:items-end gap-4">
             <div className="flex flex-wrap gap-6">
