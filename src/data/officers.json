@@ -1,0 +1,17 @@
+{
+  "trio": [
+    { "role": "District Director", "name": "TBD" },
+    { "role": "Program Quality Director", "name": "TBD" },
+    { "role": "Club Growth Director", "name": "TBD" }
+  ],
+  "appointed": [
+    { "role": "Administration Manager", "name": "TBD" },
+    { "role": "Finance Manager", "name": "TBD" },
+    { "role": "Public Relations Manager", "name": "TBD" },
+    { "role": "Immediate Past District Director", "name": "TBD" },
+    { "role": "District Chief Judge", "name": "TBD" },
+    { "role": "District Parliamentarian", "name": "TBD" },
+    { "role": "Logistics Manager", "name": "TBD" },
+    { "role": "Webmaster", "name": "TBD" }
+  ]
+}
